@@ -1,0 +1,251 @@
+{
+  "title": "Pianificazione dei turni",
+  "description": "Organizza e verifica i turni del personale per giorno e ruolo, con viste riepilogative e tabelle filtrabili.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo della copertura dei turni e delle assegnazioni imminenti.",
+      "metrics": [
+        {
+          "label": "Turni pianificati",
+          "value": "24"
+        },
+        {
+          "label": "Turni da coprire",
+          "value": "3"
+        },
+        {
+          "label": "Ruoli attivi",
+          "value": "5"
+        },
+        {
+          "label": "Giorni pianificati",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Ruolo",
+        "Fascia",
+        "Addetto",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "Accoglienza",
+          "Mattina",
+          "Lumo",
+          "Confermato"
+        ],
+        [
+          "Lunedì",
+          "Supporto",
+          "Pomeriggio",
+          "Vela",
+          "Confermato"
+        ],
+        [
+          "Martedì",
+          "Logistica",
+          "Mattina",
+          "Nubi",
+          "Da coprire"
+        ],
+        [
+          "Mercoledì",
+          "Accoglienza",
+          "Sera",
+          "Orsa",
+          "Confermato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "turni-giornalieri",
+      "title": "Turni per giorno",
+      "description": "Consulta e filtra le assegnazioni giornaliere per ruolo, fascia e stato.",
+      "metrics": [
+        {
+          "label": "Turni mostrati",
+          "value": "12"
+        },
+        {
+          "label": "Da coprire",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Ruolo",
+        "Fascia",
+        "Addetto",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "Accoglienza",
+          "Mattina",
+          "Lumo",
+          "Confermato"
+        ],
+        [
+          "Lunedì",
+          "Supporto",
+          "Pomeriggio",
+          "Vela",
+          "Confermato"
+        ],
+        [
+          "Martedì",
+          "Logistica",
+          "Mattina",
+          "Nubi",
+          "Da coprire"
+        ],
+        [
+          "Martedì",
+          "Supporto",
+          "Sera",
+          "Timo",
+          "Confermato"
+        ],
+        [
+          "Mercoledì",
+          "Accoglienza",
+          "Sera",
+          "Orsa",
+          "Confermato"
+        ],
+        [
+          "Giovedì",
+          "Logistica",
+          "Pomeriggio",
+          "Rilo",
+          "Confermato"
+        ],
+        [
+          "Venerdì",
+          "Supporto",
+          "Mattina",
+          "Lumo",
+          "Da coprire"
+        ],
+        [
+          "Sabato",
+          "Accoglienza",
+          "Pomeriggio",
+          "Nubi",
+          "Confermato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "ruoli",
+      "title": "Turni per ruolo",
+      "description": "Confronta la copertura delle fasce e filtra le assegnazioni per ruolo.",
+      "metrics": [
+        {
+          "label": "Ruoli in piano",
+          "value": "5"
+        },
+        {
+          "label": "Ruoli con copertura completa",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Ruolo",
+        "Fascia",
+        "Addetto",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "Accoglienza",
+          "Mattina",
+          "Lumo",
+          "Confermato"
+        ],
+        [
+          "Mercoledì",
+          "Accoglienza",
+          "Sera",
+          "Orsa",
+          "Confermato"
+        ],
+        [
+          "Sabato",
+          "Accoglienza",
+          "Pomeriggio",
+          "Nubi",
+          "Confermato"
+        ],
+        [
+          "Lunedì",
+          "Supporto",
+          "Pomeriggio",
+          "Vela",
+          "Confermato"
+        ],
+        [
+          "Martedì",
+          "Supporto",
+          "Sera",
+          "Timo",
+          "Confermato"
+        ],
+        [
+          "Venerdì",
+          "Supporto",
+          "Mattina",
+          "Lumo",
+          "Da coprire"
+        ],
+        [
+          "Martedì",
+          "Logistica",
+          "Mattina",
+          "Nubi",
+          "Da coprire"
+        ],
+        [
+          "Giovedì",
+          "Logistica",
+          "Pomeriggio",
+          "Rilo",
+          "Confermato"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-turno",
+      "title": "Nuovo turno",
+      "description": "Aggiungi un turno al piano indicando giorno, ruolo, fascia, addetto e stato.",
+      "metrics": [],
+      "columns": [
+        "Giorno",
+        "Ruolo",
+        "Fascia",
+        "Addetto",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Giorno",
+        "Ruolo",
+        "Fascia",
+        "Addetto",
+        "Stato"
+      ]
+    }
+  ]
+}
